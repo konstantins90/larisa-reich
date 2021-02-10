@@ -1,0 +1,22 @@
+[
+    {
+        "title": "Aktuelles",
+        "slug": "/aktuelles"
+    },
+    {
+        "title": "Über uns",
+        "slug": "/ueber-uns"
+    },
+    {
+        "title": "Leistungen",
+        "slug": "/leistungen"
+    },
+    {
+        "title": "Preisrechner",
+        "slug": "/preisrechner"
+    },
+    {
+        "title": "Anfrage",
+        "slug": "/anfrage"
+    }
+]

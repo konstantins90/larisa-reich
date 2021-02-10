@@ -1,0 +1,61 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.gatsby-image-wrapper.float-right > div[aria-hidden="true"],
+.gatsby-image-wrapper.float-left > div[aria-hidden="true"] {
+    display: none;
+}
+
+.btn {
+    @apply py-2 px-4 rounded-lg shadow-md;
+}
+
+#logo {
+    -webkit-animation: colorchange 20s infinite alternate;
+}
+
+.multibg {
+    background: linear-gradient(270deg, #8e44ad, #1abc9c, #d35400, #34495e, #2980b9, #f1c40f, #2980b9, pink);
+    background-size: 600% 600%;
+    -webkit-animation: bgcolorchange 20s infinite alternate;
+}
+
+.divider {
+    @apply mt-4 mb-8 multibg;
+    max-width: 100px;
+    height: 3px;
+}
+
+@-webkit-keyframes colorchange {
+  10% {
+    color: #8e44ad;
+  }
+  20% {
+    color: #1abc9c;
+  }
+  30% {
+    color: #d35400;
+  }
+  50% {
+    color: #34495e;
+  }
+  70% {
+    color: #2980b9;
+  }
+  80% {
+    color: #f1c40f;
+  }
+  90% {
+    color: #2980b9;
+  }
+  100% {
+    color: pink;
+  }
+}
+
+@-webkit-keyframes bgcolorchange {
+    0%{background-position:0% 50%}
+    50%{background-position:100% 50%}
+    100%{background-position:0% 50%}
+  }
