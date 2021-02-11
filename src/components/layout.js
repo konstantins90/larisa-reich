@@ -15,7 +15,7 @@ export default function Layout({ children }) {
                         <p><a href="tel: +4917642146550">+49 176 421 46 550</a> • <a href="mailto: info@krylex.de">info@krylex.de</a></p>
                     </div>
                     <div class="mt-6 text-gray-400 text-sm text-center md:text-left md:mt-0">
-                        <Link to="/impressum">Impressum</Link> • <Link to="/Datenschutz">Datenschutz</Link>
+                        <Link to="/impressum">Impressum</Link> • <Link to="/datenschutz">Datenschutz</Link>
                     </div>
                 </div>
             </div>

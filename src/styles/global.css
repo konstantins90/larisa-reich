@@ -7,6 +7,10 @@
     display: none;
 }
 
+.btn-head-img {
+    background-color: rgba(237, 237, 237, 0.6);
+}
+
 .btn {
     @apply py-2 px-4 rounded-lg shadow-md;
 }

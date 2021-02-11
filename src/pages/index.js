@@ -13,7 +13,7 @@ export default function Home({ data }) {
                     <div class="relative z-10 text-gray-600">
                         <h1 class="text-3xl md:text-6xl">Fußbodenheizung</h1>
                         <p class="text-xl md:text-2xl">schnell und professionell in Paderborn</p>
-                        <button class="btn border border-gray-600 uppercase mt-4 hover:bg-white">Kostenloses Angebot anfordern</button>
+                        <button class="btn btn-head-img border border-gray-600 uppercase mt-4 md:bg-transparent hover:bg-white">Kostenloses Angebot anfordern</button>
                     </div>
                 </div>
                 <Img

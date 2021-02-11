@@ -1,5 +1,4 @@
 import React from "react"
-import { graphql } from "gatsby"
 
 import Layout from "../components/layout"
 
@@ -41,31 +40,3 @@ export default function Home({ data }) {
     </Layout>
   )
 }
-
-export const query = graphql`
-    query {
-        banner: file(relativePath: { eq: "images/home_bg.jpg" }) {
-            childImageSharp {
-                fluid(maxWidth: 1920) {
-                ...GatsbyImageSharpFluid_noBase64
-                }
-            }
-        },
-
-        img1: file(relativePath: { eq: "images/modernisierung.jpg" }) {
-            childImageSharp {
-            fluid(maxWidth: 1920) {
-                ...GatsbyImageSharpFluid_noBase64
-            }
-            }
-        },
-
-        img2: file(relativePath: { eq: "images/neubau.jpg" }) {
-            childImageSharp {
-            fluid(maxWidth: 1920) {
-                ...GatsbyImageSharpFluid_noBase64
-            }
-            }
-        }
-    }
-`
