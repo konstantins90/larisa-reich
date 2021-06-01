@@ -16,7 +16,7 @@
 }
 
 #logo {
-    -webkit-animation: colorchange 20s infinite alternate;
+    height: 50px;
 }
 
 .multibg {
@@ -30,36 +30,3 @@
     max-width: 100px;
     height: 3px;
 }
-
-@-webkit-keyframes colorchange {
-  10% {
-    color: #8e44ad;
-  }
-  20% {
-    color: #1abc9c;
-  }
-  30% {
-    color: #d35400;
-  }
-  50% {
-    color: #34495e;
-  }
-  70% {
-    color: #2980b9;
-  }
-  80% {
-    color: #f1c40f;
-  }
-  90% {
-    color: #2980b9;
-  }
-  100% {
-    color: pink;
-  }
-}
-
-@-webkit-keyframes bgcolorchange {
-    0%{background-position:0% 50%}
-    50%{background-position:100% 50%}
-    100%{background-position:0% 50%}
-  }
